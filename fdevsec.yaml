@@ -16,4 +16,5 @@ languages:
 
 dast:
   url: http://chanvit.fortiseahk.com:8000/
-
+  fortipentest_scanner: true #true|false
+  full_scan: false #true|false
