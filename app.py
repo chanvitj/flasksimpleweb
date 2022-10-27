@@ -1,6 +1,11 @@
 import socket
 from flask import Flask
+
+config = {
+   "DEBUG": True
+}
 app = Flask(__name__)
+app.config.from_mapping(config)
 
 username="asdf"
 pwd="zxcv@asdf"
