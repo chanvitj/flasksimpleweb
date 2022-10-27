@@ -2,7 +2,7 @@ version: v1
 
 id:
   org: 1c2ff286-014e-48f9-97bd-9b39dc05f699
-  app: b5f86cff-d761-4ba2-a117-75185accd597a
+  app: b5f86cff-d761-4ba2-a117-75185accd597
 
 # Optional parameters.
 scanners:
