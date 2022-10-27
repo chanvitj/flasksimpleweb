@@ -8,7 +8,6 @@ id:
 scanners:
   - sast
   - secret
-  - dast
   - sca
 
 languages:
