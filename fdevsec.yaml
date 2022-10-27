@@ -14,6 +14,5 @@ scanners:
 languages:
   - python
 
-dast:
-  url: http://chanvit.fortiseahk.com:8000/
+
 
