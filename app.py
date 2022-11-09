@@ -16,13 +16,13 @@ def Home():
    ipAddr=socket.gethostbyname(hostname)
    return "<h1>Hello JewWithPenTest, "+hostname+", "+ipAddr+"</h1>"
 
-@app.route('/c2f183eb-dc8b-495f-b55a-c674a839760e.html')
+@app.route('/ee656c25-b60c-4e0b-bb1f-507e52261d2d.html')
 def uuidchecking():
    return ""
 
 @app.route('/forti-uuid.html')
 def uuidDetailCheck():
-   return "<forti-uuid hidden>c2f183eb-dc8b-495f-b55a-c674a839760e</forti-uuid>"
+   return "<forti-uuid hidden>ee656c25-b60c-4e0b-bb1f-507e52261d2d</forti-uuid>"
 
 if __name__ == '__main__':
  app.debug = True
