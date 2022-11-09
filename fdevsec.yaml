@@ -15,7 +15,7 @@ languages:
   - python
 
 dast:
-  url: http://ec2-54-179-233-74.ap-southeast-1.compute.amazonaws.com:8000/
+  url: http://www.cjcloud.shop:8002/
   fortipentest_scanner: false #true|false
   full_scan: true #true|false
   
