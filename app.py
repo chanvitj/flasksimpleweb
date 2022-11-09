@@ -14,15 +14,15 @@ pwd="zxcv@asdf"
 def Home():
    hostname=socket.gethostname()
    ipAddr=socket.gethostbyname(hostname)
-   return "<h1>Hello JewZZZ, "+hostname+", "+ipAddr+"</h1>"
+   return "<h1>Hello JewWithPenTest, "+hostname+", "+ipAddr+"</h1>"
 
-@app.route('/8d7ed8ec-203c-4677-adda-a5bcde82b1c4.html')
+@app.route('/f839c3a1-ec0f-4cc2-b97e-f8d981e9b4d5.html')
 def uuidchecking():
    return ""
 
 @app.route('/forti-uuid.html')
 def uuidDetailCheck():
-   return "<forti-uuid hidden>8d7ed8ec-203c-4677-adda-a5bcde82b1c4</forti-uuid>"
+   return "<forti-uuid hidden>f839c3a1-ec0f-4cc2-b97e-f8d981e9b4d5</forti-uuid>"
 
 if __name__ == '__main__':
  app.debug = True
