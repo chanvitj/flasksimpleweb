@@ -18,7 +18,7 @@ languages:
 
 dast:
   url: http://www.cjcloud.shop:8002/
-  fortipentest_scanner: false #true|false
+  fortipentest_scanner: true #true|false
   full_scan: true #true|false
 
 resource:
