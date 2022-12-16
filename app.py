@@ -14,7 +14,7 @@ pwd="zxcv@asdf"
 def Home():
    hostname=socket.gethostname()
    ipAddr=socket.gethostbyname(hostname)
-   return "<h1>Hello Jew 1111, "+hostname+", "+ipAddr+"</h1>"
+   return "<h1>Hello Jew, "+hostname+", "+ipAddr+"</h1>"
 
 @app.route('/c2f183eb-dc8b-495f-b55a-c674a839760e.html')
 def uuidchecking():
