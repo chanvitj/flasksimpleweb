@@ -13,6 +13,12 @@ scanners:
   - iac
   - container   
 
+languages:
+  - python
+  - java
+  - C
+  - javascript
+  
 dast:
   url: http://www.cjcloud.shop:8002/
   fortipentest_scanner: false #true|false
