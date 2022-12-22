@@ -16,6 +16,10 @@ def Home():
    ipAddr=socket.gethostbyname(hostname)
    return "<h1>Hello Jew12345677777, "+hostname+", "+ipAddr+"</h1>"
 
+@app.route('mobileapp')
+def mobileApp():
+   return "<h1>This is return from mobile app</h1>"
+
 @app.route('/c2f183eb-dc8b-495f-b55a-c674a839760e.html')
 def uuidchecking():
    return ""
