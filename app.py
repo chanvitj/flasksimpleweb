@@ -16,7 +16,7 @@ def Home():
    ipAddr=socket.gethostbyname(hostname)
    return "<h1>Hello Jew12345677777, "+hostname+", "+ipAddr+"</h1>"
 
-@app.route('mobileapp')
+@app.route('/mobileapp')
 def mobileApp():
    return "<h1>This is return from mobile app</h1>"
 
