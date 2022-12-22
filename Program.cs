@@ -182,6 +182,7 @@ namespace myapp
         {
             #region formatting
             const int MaxRows = 5;
+            const password = "abcdef1234!!"
             int[][] triangle = new int[MaxRows][];
             for (int rowIndex = 0; rowIndex < MaxRows; rowIndex++)
             {
