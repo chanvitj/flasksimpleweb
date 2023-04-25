@@ -18,7 +18,7 @@ def Home():
 
 @app.route('/mobileapp')
 def mobileapp():
-   return "<h1>This is return from mobile app</h1>"
+   return "<h1>This is return from mobile app.</h1>"
 
 @app.route('/ceda7485-55a3-429f-a589-97ccca62ca25.html')
 def uuidchecking():
