@@ -20,7 +20,7 @@ languages:
   - javascript
   
 dast:
-  url: http://www.cjcloud.shop:8002/
+  url: http://www.cjcloud.shop/
   fortipentest_scanner: true #true|false
   full_scan: true #true|false
 
