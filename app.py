@@ -20,13 +20,13 @@ def Home():
 def mobileapp():
    return "<h1>This is return from mobile app</h1>"
 
-@app.route('/c2f183eb-dc8b-495f-b55a-c674a839760e.html')
+@app.route('/ceda7485-55a3-429f-a589-97ccca62ca25.html')
 def uuidchecking():
    return ""
 
 @app.route('/forti-uuid.html')
 def uuidDetailCheck():
-   return "<forti-uuid hidden>c2f183eb-dc8b-495f-b55a-c674a839760e</forti-uuid>"
+   return "<forti-uuid hidden>ceda7485-55a3-429f-a589-97ccca62ca25</forti-uuid>"
 
 if __name__ == '__main__':
  app.debug = True
