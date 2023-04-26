@@ -21,7 +21,7 @@ languages:
   
 dast:
   url: http://www.cjcloud.shop/
-  full_scan: true #false|false
+  full_scan: false #false|false
 
 resource:
   serial_scan: true #true|false
