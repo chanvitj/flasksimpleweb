@@ -2,19 +2,30 @@ version: v1
 
 id:
   org: 1c2ff286-014e-48f9-97bd-9b39dc05f699
-  app: 26b48ea6-7a68-43ee-bbcd-4b36225412b3
+  app: 898b5bc2-c7c8-453c-aa51-fcdf00b4d507
 
 # Optional parameters.
 scanners:
   - sast
   - secret
-  - dast
   - sca
+  - iac
+  - container
+  - dast
 
 languages:
   - python
+  - java
+  - C
+  - javascript
+  
+resource:
+  serial_scan: true #true|false
 
 dast:
-  url: http://chanvit.fortiseahk.com:8000/
-  fortipentest_scanner: true #true|false
-  full_scan: true #true|false
+  url: http://www.cjcloud.shop/
+  full_scan: false #false|false
+
+fail_pipeline:
+  risk_rating: 9
+  
