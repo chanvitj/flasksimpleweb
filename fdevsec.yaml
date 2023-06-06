@@ -19,10 +19,6 @@ languages:
   - C
   - javascript
   
-dast:
-  url: http://www.cjcloud.shop/
-  full_scan: false #false|false
-  
 resource:
   serial_scan: true #true|false
 
